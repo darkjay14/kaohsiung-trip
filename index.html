@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>高雄四天三夜 10/31–11/3｜港都・夕陽・演唱會</title><meta name="theme-color" content="#1b1446">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b1446;--deep:#120d33;--sun:#ff7a45;--pink:#ff4f8b;--gold:#ffc857;--sea:#2ec4d6;--card:rgba(255,255,255,.07);--line:rgba(255,255,255,.14);--txt:#f4f1ff;--mut:#b9b3d9}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"Noto Sans TC",system-ui,sans-serif;background:var(--deep);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--gold)}
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:24px 20px 56px;overflow:hidden;
+background:linear-gradient(180deg,#2a1a6e 0%,#7b2d8e 38%,#ff4f8b 62%,#ff7a45 78%,#ffc857 90%,#0b3a5c 90.2%,#06233a 100%)}
+.sunball{position:absolute;left:50%;top:58%;width:min(70vw,360px);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;
+background:radial-gradient(circle at 50% 40%,#fff2b3,#ffc857 45%,#ff7a45 75%);box-shadow:0 0 120px 40px rgba(255,140,80,.55);animation:rise 3s ease-out both}
+.sunball::after{content:"";position:absolute;inset:0;border-radius:50%;background:repeating-linear-gradient(180deg,transparent 0 58%,rgba(123,45,142,.85) 58% 61%,transparent 61% 66%)}
+@keyframes rise{from{transform:translate(-50%,-10%);opacity:0}to{transform:translate(-50%,-50%);opacity:1}}
+.waves{position:absolute;left:0;right:0;bottom:0;height:12%;background:repeating-linear-gradient(180deg,rgba(255,200,87,.25) 0 2px,transparent 2px 9px);animation:shim 4s linear infinite}
+@keyframes shim{50%{opacity:.5}}
+.stars i{position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;animation:tw 3s infinite}
+@keyframes tw{50%{opacity:.2}}
+.notes{position:absolute;inset:0;pointer-events:none}.notes span{position:absolute;bottom:20%;font-size:22px;opacity:0;animation:fl 7s linear infinite}
+@keyframes fl{0%{transform:translateY(0) rotate(0);opacity:0}15%{opacity:.85}100%{transform:translateY(-70vh) rotate(25deg);opacity:0}}
+.hero-c{position:relative;z-index:2;max-width:760px;margin:0 auto;width:100%}
+.kicker{letter-spacing:.35em;font-size:12px;text-transform:uppercase;color:#ffe9c7}
+h1{font-family:"Noto Serif TC",serif;font-weight:900;font-size:clamp(40px,11vw,84px);line-height:1.05;margin:.2em 0;text-shadow:0 6px 30px rgba(0,0,0,.35)}
+h1 em{font-style:normal;background:linear-gradient(90deg,#fff,#ffe9a8);-webkit-background-clip:text;color:transparent}
+.sub{color:#fff3e8;font-size:15px}
+.cd{display:flex;gap:10px;margin-top:22px}.cd div{flex:1;background:rgba(18,13,51,.45);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);border-radius:16px;padding:12px 4px;text-align:center}
+.cd b{display:block;font-family:"Noto Serif TC";font-size:clamp(26px,7vw,40px);font-variant-numeric:tabular-nums}.cd small{color:#ffe0cc;font-size:12px}
+.cdlab{margin-top:10px;font-size:13px;color:#ffe9c7}
+nav{position:sticky;top:0;z-index:50;display:flex;gap:6px;overflow-x:auto;padding:10px 14px;background:rgba(18,13,51,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);scrollbar-width:none}
+nav a{flex:none;color:var(--txt);text-decoration:none;font-size:14px;padding:6px 14px;border-radius:99px;border:1px solid var(--line);transition:.25s}
+nav a.on,nav a:hover{background:linear-gradient(90deg,var(--pink),var(--sun));border-color:transparent}
+main{max-width:820px;margin:0 auto;padding:0 16px 80px}
+section{padding-top:56px}
+h2{font-family:"Noto Serif TC",serif;font-size:clamp(26px,6vw,36px);margin-bottom:6px;display:flex;align-items:center;gap:10px}
+h2 .no{font-size:13px;font-family:"Noto Sans TC";color:var(--sun);border:1px solid var(--sun);border-radius:99px;padding:1px 10px}
+.lead{color:var(--mut);margin-bottom:18px;font-size:14px}
+.reveal{opacity:0;transform:translateY(28px);transition:.8s cubic-bezier(.2,.7,.2,1)}.reveal.in{opacity:1;transform:none}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+.tab{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:14px;padding:10px 4px;font:inherit;cursor:pointer;transition:.3s;text-align:center}
+.tab b{display:block;font-family:"Noto Serif TC";font-size:18px}.tab small{color:var(--mut);font-size:11px}
+.tab.on{background:linear-gradient(135deg,var(--pink),var(--sun));border-color:transparent;transform:translateY(-2px);box-shadow:0 10px 30px -10px var(--pink)}.tab.on small{color:#fff}
+.dayhead{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:8px}
+.dayhead h3{font-family:"Noto Serif TC";font-size:22px}
+.prog{height:6px;background:var(--card);border-radius:9px;overflow:hidden;margin-bottom:18px}.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--sea),var(--gold),var(--pink));transition:width .5s}
+.tl{position:relative;padding-left:28px}.tl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--gold),var(--pink),var(--sea))}
+.ev{position:relative;margin-bottom:12px;opacity:0;transform:translateX(-16px);animation:slide .5s forwards}
+@keyframes slide{to{opacity:1;transform:none}}
+.ev .dot{position:absolute;left:-26px;top:16px;width:16px;height:16px;border-radius:50%;background:var(--deep);border:3px solid var(--gold);transition:.3s}
+.ev.done .dot{background:var(--sea);border-color:var(--sea)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.row{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.time{flex:none;font-weight:700;color:var(--gold);min-width:54px;font-variant-numeric:tabular-nums}
+.ev.done .txt{text-decoration:line-through;color:var(--mut)}
+.chk{flex:none;margin-left:auto;width:24px;height:24px;border-radius:8px;border:2px solid var(--line);display:grid;place-items:center;transition:.25s}
+.done .chk,.item.done .chk{background:var(--sea);border-color:var(--sea)}.chk::after{content:"✓";font-size:14px;color:var(--deep);opacity:0}.done .chk::after{opacity:1}
+.tbtn{margin-top:8px;background:none;border:1px dashed var(--line);color:var(--sea);border-radius:99px;padding:3px 12px;font:inherit;font-size:12px;cursor:pointer}
+.tr{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s}.tr.open{grid-template-rows:1fr}.tr>div{overflow:hidden}
+.tr .st{margin-top:8px;padding:8px 12px;border-left:3px solid var(--sea);background:rgba(46,196,214,.08);border-radius:0 10px 10px 0;font-size:14px}.st b{color:var(--sea);display:block}
+.maplink{font-size:12px;margin-left:8px;text-decoration:none}
+.bus{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.bus .box{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;transition:.3s}
+.bus .mine{border-color:var(--gold);background:rgba(255,200,87,.12)}.bus .next{border-color:var(--pink);box-shadow:0 0 0 2px var(--pink),0 0 24px -4px var(--pink)}
+.bus .past{opacity:.35}
+.tag{font-size:11px;padding:1px 8px;border-radius:99px;background:var(--pink);color:#fff}.tag.g{background:var(--gold);color:var(--deep)}
+.clock{font-size:13px;color:var(--mut);margin:-6px 0 12px}
+.stay{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.stay .box{padding:18px;position:relative;overflow:hidden}.stay .box::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--sun),var(--pink))}
+.stay h4{font-family:"Noto Serif TC";font-size:18px;margin-bottom:8px}.kv{display:flex;justify-content:space-between;gap:10px;font-size:14px;padding:5px 0;border-bottom:1px dashed var(--line)}.kv span:first-child{color:var(--mut)}
+.badge{font-size:12px;padding:1px 10px;border-radius:99px}.ok{background:rgba(46,196,214,.2);color:#7be8f5}.warn{background:rgba(255,200,87,.2);color:var(--gold)}.no{background:rgba(255,79,139,.2);color:#ff9cbf}
+.item{display:flex;align-items:center;gap:10px;padding:10px 14px;margin-bottom:8px;cursor:pointer;transition:.3s}
+.item.done .t{text-decoration:line-through;color:var(--mut)}
+.x{margin-left:auto;background:none;border:none;color:var(--mut);font-size:18px;cursor:pointer}
+.add{display:flex;gap:8px;margin-top:8px}.add input{flex:1;background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px 12px;font:inherit}
+.btn{background:linear-gradient(90deg,var(--pink),var(--sun));border:none;color:#fff;border-radius:12px;padding:10px 16px;font:inherit;cursor:pointer}.btn.ghost{background:var(--card);border:1px solid var(--line)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.chip{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:99px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer;transition:.25s}.chip.on{background:var(--gold);color:var(--deep);border-color:var(--gold)}
+.foods{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.food{padding:16px;animation:pop .45s both}@keyframes pop{from{opacity:0;transform:scale(.94)}}
+.food h4{font-family:"Noto Serif TC";font-size:17px;display:flex;justify-content:space-between;gap:8px;align-items:start}
+.food .sig{color:var(--gold);font-size:14px;margin:4px 0 8px}.food p{font-size:13px;color:var(--mut)}.food .area{font-size:11px;color:var(--sea)}
+.food .act{display:flex;gap:10px;margin-top:10px;font-size:13px}
+.note{font-size:13px;color:var(--mut);background:rgba(255,200,87,.08);border-left:3px solid var(--gold);padding:8px 12px;border-radius:0 10px 10px 0;margin-bottom:12px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.links a{font-size:13px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:6px 10px;color:var(--txt)}.links a small{color:var(--mut);margin-left:4px}
+.alert{background:linear-gradient(135deg,rgba(255,79,139,.18),rgba(255,122,69,.12));border:1px solid rgba(255,79,139,.5);border-radius:16px;padding:16px;font-size:14px}
+.map{width:100%;height:280px;border:0;border-radius:16px;margin-top:12px;filter:saturate(.9)}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:30px 16px 50px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal,.ev{opacity:1;transform:none}}
+</style></head><body>
+<header class="hero"><div class="stars" id="stars"></div><div class="sunball"></div><div class="waves"></div><div class="notes" id="notes"></div>
+<div class="hero-c"><div class="kicker">Kaohsiung · Harbor · Live</div><h1>高雄<br><em>四天三夜</em></h1>
+<p class="sub">10/31（六）– 11/3（二）｜駁二・演唱會・佛光山・旗津夕陽・野森動物學校・蓮池潭</p>
+<div class="cd" id="cd"><div><b id="cdd">--</b><small>天</small></div><div><b id="cdh">--</b><small>時</small></div><div><b id="cdm">--</b><small>分</small></div><div><b id="cds">--</b><small>秒</small></div></div>
+<div class="cdlab" id="cdlab">距離 10/31 09:31 高鐵 117 出發</div></div></header>
+<nav id="nav"><a href="#plan" class="on">行程</a><a href="#bus">公車</a><a href="#stay">住宿</a><a href="#todo">待辦</a><a href="#pack">行李</a><a href="#food">小吃</a><a href="#ref">連結</a></nav>
+<main>
+<section id="plan" class="reveal"><h2><span class="no">01</span>每日行程</h2><p class="lead">點一下項目可打勾，進度會存在這支手機的瀏覽器。</p>
+<div class="tabs" id="tabs"></div><div class="dayhead"><h3 id="dtitle"></h3><span id="dcount" class="badge warn"></span></div><div class="prog"><i id="dprog"></i></div><div class="tl" id="tl"></div>
+<iframe class="map" id="dmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+<section id="bus" class="reveal"><h2><span class="no">02</span>E02 哈佛快線 假日時刻</h2><p class="lead">11/1（日）用。金框＝我們要搭的班次，粉框＝下一班（依現在時間）。</p><p class="clock" id="clock"></p>
+<div class="chips"><button class="chip on" data-b="0">高鐵左營站發車</button><button class="chip" data-b="1">佛陀紀念館發車</button><button class="chip" id="mineOnly">只看我的班次</button></div><div class="bus" id="busg"></div>
+<div class="alert" style="margin-top:14px">⚠️ 11/2 回程：農會(內門)站 13:57 的 8035 是下午唯一一班，錯過要等到 18:12。出發當天用「高雄 i-bus」APP 看即時到站。渡輪、公車票價和計程車費皆未確認，以現場為準。</div></section>
+<section id="stay" class="reveal"><h2><span class="no">03</span>住宿</h2><p class="lead">兩晚分兩處，11/1 記得 11:00 前退房。</p><div class="stay">
+<div class="box"><h4>10/31–11/1 頂樓套房（Airbnb）</h4><div class="kv"><span>位置</span><span>前金區文武二街附近（大立百貨／中央公園）</span></div><div class="kv"><span>入住</span><span>15:00 後</span></div><div class="kv"><span>退房</span><span>11:00 前</span></div><div class="kv"><span>寄放行李</span><span class="badge warn">待房東確認</span></div><a class="maplink" style="margin:10px 0 0;display:inline-block" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%89%8D%E9%87%91%E5%8D%80%E6%96%87%E6%AD%A6%E4%BA%8C%E8%A1%97">📍 地圖（區域）</a></div>
+<div class="box"><h4>11/1–11/3 稻芯旅店 駁二愛河館</h4><div class="kv"><span>英文</span><span>Legend Hotel Pier 2</span></div><div class="kv"><span>房型</span><span>創意特大床房</span></div><div class="kv"><span>早餐</span><span>含 2 份</span></div><div class="kv"><span>狀態</span><span class="badge ok">已確認</span></div><a class="maplink" style="margin:10px 0 0;display:inline-block" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%A8%BB%E8%8A%AF%E6%97%85%E5%BA%97%20%E9%A7%81%E4%BA%8C%E6%84%9B%E6%B2%B3%E9%A4%A8">📍 地圖</a></div></div></section>
+<section id="todo" class="reveal"><h2><span class="no">04</span>待辦事項</h2><p class="lead">出發前搞定。</p><div id="todos"></div></section>
+<section id="pack" class="reveal"><h2><span class="no">05</span>行李清單</h2><p class="lead" id="packc"></p><div id="packs"></div>
+<div class="add"><input id="newp" placeholder="新增物品，例如：耳塞"><button class="btn" id="addp">新增</button></div><button class="btn ghost" id="resetp" style="margin-top:8px;font-size:13px">還原預設</button></section>
+<section id="food" class="reveal"><h2><span class="no">06</span>小吃推薦</h2><p class="lead">依地區或日期篩選，徽章顯示「我們那天」有沒有開。</p>
+<div class="chips" id="fdays"></div><div class="chips" id="fareas"></div><div class="note" id="fnote"></div><div class="foods" id="foods"></div><div class="links" id="flinks"></div>
+<p class="lead" style="margin-top:14px">營業時間來自 2026 年前後的文章和地圖資料，店家可能臨時公休，出發前再看一次 Google 地圖。</p></section>
+<section id="ref" class="reveal"><h2><span class="no">07</span>參考連結</h2><div class="links">
+<a target="_blank" href="https://www.kbus.com.tw/upload/timetable/E02.htm">高雄客運 E02 時刻表<small>kbus.com.tw</small></a>
+<a target="_blank" href="https://www.kbus.com.tw/upload/timetable/8035.htm">高雄客運 8035 時刻表<small>kbus.com.tw</small></a>
+<a target="_blank" href="https://www.kbus.com.tw/upload/timetable/E01AB.htm">高雄客運 E01A 時刻表<small>kbus.com.tw</small></a>
+<a target="_blank" href="https://www.fgsbmc.org.tw/tw/visit-info.aspx">佛陀紀念館參觀資訊<small>fgsbmc.org.tw</small></a>
+<a target="_blank" href="https://www.yessen.com.tw/">野森動物學校<small>yessen.com.tw</small></a></div></section>
+</main><footer>港都見 ☀️🎶🌊 · Kaohsiung 2026</footer>
+<script>
+const days = [
+  { key: "d1", label: "10/31 六", title: "抵達高雄・駁二・演唱會", items: [
+    { id: "1a", time: "08:45", text: "從萬華搭計程車到台北車站", transit: [{ title: "計程車", detail: "萬華 → 台北車站，車資未確認" }] },
+    { id: "1b", time: "09:31", text: "高鐵 117 車次 台北 → 左營 11:05", transit: [{ title: "高鐵 117", detail: "台北 09:31 發車，左營 11:05 抵達" }] },
+    { id: "1c", time: "11:05", text: "捷運紅線到中央公園站，到前金套房寄放行李（待房東確認）", transit: [{ title: "捷運紅線", detail: "左營站 → 中央公園站，再走到前金區文武二街附近的套房" }] },
+    { id: "1d", time: "12:00", text: "鹽埕午餐" },
+    { id: "1e", time: "12:45", text: "逛駁二（到 14:15）" },
+    { id: "1f", time: "14:30", text: "搭輕軌到高雄流行音樂中心排隊", transit: [{ title: "輕軌", detail: "駁二一帶 → 高雄流行音樂中心，票價未確認" }] },
+    { id: "1g", time: "16:00", text: "演唱會" },
+    { id: "1h", time: "晚上", text: "鹽埕吃晚餐，計程車回套房", transit: [{ title: "計程車", detail: "鹽埕 → 前金套房，車資未確認" }] },
+  ]},
+  { key: "d2", label: "11/1 日", title: "佛光山・旗津", items: [
+    { id: "2a", time: "10:30前", text: "退房，計程車到稻芯旅店寄行李", transit: [{ title: "計程車", detail: "前金套房 → 稻芯旅店駁二愛河館，車資未確認" }] },
+    { id: "2b", time: "10:15", text: "出發：鹽埕埔站橘線 → 美麗島轉紅線 → 左營站", transit: [{ title: "捷運", detail: "鹽埕埔（橘線）→ 美麗島轉紅線 → 左營" }] },
+    { id: "2c", time: "11:00", text: "高鐵左營站第 3 站牌搭 E02 哈佛快線，11:31 到佛陀紀念館", transit: [{ title: "E02 哈佛快線", detail: "高鐵左營站第 3 站牌上車，票價未確認" }] },
+    { id: "2d", time: "11:31", text: "佛陀紀念館參觀，館內素食午餐（10:30–14:00）" },
+    { id: "2e", time: "14:43", text: "佛陀紀念館站搭 E02 回左營 15:14（不是滿香園旁站）", transit: [{ title: "E02 回程", detail: "在佛陀紀念館站上車，不是滿香園旁站" }] },
+    { id: "2f", time: "約16:00", text: "捷運到西子灣站，走到鼓山渡輪站搭渡輪到旗津", transit: [{ title: "捷運 + 渡輪", detail: "左營 → 西子灣站，步行到鼓山渡輪站，渡輪票價未確認" }] },
+    { id: "2g", time: "17:20", text: "旗後砲台看夕陽、旗津老街、海鮮晚餐" },
+    { id: "2h", time: "晚上", text: "渡輪回鼓山，回旅店入住" },
+  ]},
+  { key: "d3", label: "11/2 一", title: "內門野森動物學校", items: [
+    { id: "3a", time: "早上", text: "旅店早餐" },
+    { id: "3b", time: "07:50", text: "出發，搭捷運到左營" },
+    { id: "3c", time: "08:40", text: "E01A 旗美國道快捷 → 09:20 旗山轉運站", transit: [{ title: "E01A", detail: "高鐵左營站 08:40 → 旗山轉運站 09:20，票價未確認" }] },
+    { id: "3d", time: "09:55", text: "搭 8035 → 10:15 農會(內門)站，步行約 10 分鐘", transit: [{ title: "8035", detail: "旗山 09:55 → 農會(內門) 10:15；平日不停野森動物學校站" }] },
+    { id: "3e", time: "10:25", text: "野森動物學校（10:00–17:00，最後入園 16:00；門票已購、已預約）" },
+    { id: "3f", time: "13:57", text: "回程：農會(內門)站 8035 → 14:15 旗山（下午唯一一班）", transit: [{ title: "8035 回程", detail: "錯過的話下一班 18:12。備案：請園區叫計程車到旗山，接 16:30 或 17:30 的 E01A" }] },
+    { id: "3g", time: "14:30", text: "E01A → 15:10 左營" },
+    { id: "3h", time: "晚上", text: "愛河逛街、晚餐" },
+  ]},
+  { key: "d4", label: "11/3 二", title: "蓮池潭・賦歸", items: [
+    { id: "4a", time: "早上", text: "旅店早餐、退房，帶行李出發" },
+    { id: "4b", time: "上午", text: "蓮池潭龍虎塔" },
+    { id: "4c", time: "中午", text: "果貿眷村午餐" },
+    { id: "4d", time: "下午", text: "買伴手禮（漢神巨蛋或左營站）" },
+    { id: "4e", time: "18:00", text: "到左營站" },
+    { id: "4f", time: "18:35", text: "高鐵 676 車次 左營 → 台北 20:33", transit: [{ title: "高鐵 676", detail: "左營 18:35 發車，台北 20:33 抵達" }] },
+  ]},
+];
+
+const todos = [
+  { id: "t1", text: "傳訊息問房東 能否提早寄放行李（日文稿已擬，還沒傳）", init: false },
+  { id: "t2", text: "野森動物學校預約與門票", init: true },
+  { id: "t3", text: "下載高雄 i-bus APP", init: false },
+  { id: "t4", text: "一卡通／悠遊卡儲值", init: false },
+];
+
+const defaultPacking = ["演唱會門票", "身分證件", "高鐵票", "手機充電器・行動電源", "一卡通／悠遊卡", "換洗衣物", "防曬・帽子", "雨具"];
+
+const gm = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+const foods = [
+  { key: "f1", label: "鹽埕/駁二", note: "10/31（六）午餐、晚餐用。", rows: [
+    ["鴨肉珍（總店）", "鴨肉飯、綜合下水湯", "五福四路258號", "10:00–20:20，週二休（部分資料寫週二、三休）", "$60–150", "10/31 有開"],
+    ["北港蔡三代筒仔米糕", "筒仔米糕＋蒸蛋湯（必比登）", "河西路167號", "13:30–21:30，週三休", "$50–100", "10/31 有開（13:30 才開）"],
+    ["港園牛肉麵", "牛肉拌麵、豬腳拌麵", "大成街55號", "10:30–20:00", "$140–200", "10/31 有開，常提早賣完"],
+    ["冬粉王", "乾冬粉、綜合冬粉湯", "七賢三路168號", "08:30–20:00", "$55–135", "10/31 有開"],
+    ["肉粽泰", "南部粽＋四神湯", "新興街289號", "07:00–21:00，不定休", "$55–85", "10/31 有開"],
+  ], links: [
+    { title: "食尚玩家：鹽埕美食 26 家", site: "supertaste.tvbs.com.tw", href: "https://supertaste.tvbs.com.tw/pack/345960" },
+    { title: "鴨肉珍 2026 攻略", site: "shin.tw", href: "https://shin.tw/kaohsiung-ya-rou-zhen/" },
+    { title: "鴨肉珍 地圖", site: "Google 地圖", href: gm("鴨肉珍 高雄市鹽埕區五福四路258號") },
+  ]},
+  { key: "f2", label: "前金/文武二街", note: "Airbnb 周邊，10/31 晚上或 11/1 早上用。", rows: [
+    ["吳記肉圓", "肉圓＋米糕＋四神湯套餐", "榮安街126號", "06:30–15:30，週日休", "約 $70", "10/31 有開；11/1（日）休"],
+    ["德記溫州餛飩", "豬油拌麵、酸辣湯餃", "自強一路92號", "11:00–23:00", "約 $100", "10/31 宵夜可去"],
+    ["月娥鴨肉", "鴨肉飯、鴨肉切盤", "自強二路72號", "10:30–19:30", "約 $100", "10/31 有開"],
+    ["晴。晨 Morning Sun", "季節水果派（外帶為主）", "文武三街190號", "13:00–20:00，週二休", "$150–300", "10/31 有開"],
+  ], links: [
+    { title: "2026 前金區美食大集合", site: "sweetday.tw", href: "https://sweetday.tw/%e5%89%8d%e9%87%91%e5%8d%80%e7%be%8e%e9%a3%9f/" },
+    { title: "吳記肉圓 地圖", site: "Google 地圖", href: gm("吳記肉圓 高雄市前金區榮安街126號") },
+  ]},
+  { key: "f3", label: "佛光山（素食）", note: "11/1（日）午餐。館內滴水坊全素，佛館週二休館。", rows: [
+    ["滴水坊・禮敬大廳", "皇帝豆麵、素食套餐", "佛陀紀念館禮敬大廳", "假日 11:00–14:30、16:30–18:30", "約 $150–250（未確認）", "11/1 有開"],
+    ["滴水坊・佛光一滴", "素食輕食，大佛景觀", "佛陀紀念館大佛下", "11:00–16:30", "未確認", "11/1 有開"],
+    ["滴水坊・雙閣樓", "素食點心、茶飲", "佛陀紀念館雙閣樓", "11:00–17:00", "未確認", "11/1 有開"],
+  ], links: [
+    { title: "滴水坊 餐廳據點", site: "waterdropteahouse.com.tw", href: "https://waterdropteahouse.com.tw/location/" },
+  ]},
+  { key: "f4", label: "旗津", note: "11/1（日）16:00 後到，黑輪攤 18:00 左右收。", rows: [
+    ["昌記旗魚黑輪", "現包現炸包蛋旗魚黑輪", "廟前路131號", "只開週六、日 11:00–18:00", "5 支約 $60–70", "11/1 有開，要早點去"],
+    ["旗津旗魚王", "旗魚黑輪、烤小卷", "廟前路26號", "週六 09:00–20:30、週日 09:00–18:30，平日休", "黑輪 $25/支", "11/1 有開"],
+    ["旗津老字號烤小卷", "炭烤現剖小卷", "廟前路9號", "週二至日 12:00–20:00，週一 16:00–20:00", "$120–130/尾", "11/1 有開"],
+    ["萬三小吃部", "白灼小卷、海鮮熱炒（晚餐）", "中洲二路162號", "約 10:30–20:30", "約 $350/人", "11/1 有開"],
+  ], links: [
+    { title: "萬三小吃部", site: "cncn.com", href: "https://m.cncn.com/meishi/taiwan/store/2297" },
+    { title: "昌記旗魚黑輪 地圖", site: "Google 地圖", href: gm("旗津昌記旗魚黑輪 高雄市旗津區廟前路131號") },
+    { title: "旗津旗魚王 地圖", site: "Google 地圖", href: gm("旗津旗魚王 高雄市旗津區廟前路26號") },
+    { title: "旗津老字號烤小卷 地圖", site: "Google 地圖", href: gm("旗津老字號烤小卷 高雄市旗津區廟前路9號") },
+  ]},
+  { key: "f5", label: "旗山/內門", note: "11/2 是週一，旗山老街很多店週一休。午餐建議在野森園區內解決。", rows: [
+    ["枝仔冰城 旗山總店", "香蕉船、芋頭聖代、香蕉冰", "旗山區中山路109號", "09:00–20:30", "$50–150", "11/2 有開，14:15 回旗山轉車可吃"],
+    ["旗山秀明豬心冬粉", "豬心冬粉（必比登）", "旗山區永平街41號", "08:30–15:30，週一休", "約 $90", "11/2（一）休息"],
+    ["旗山老街陳麵線羹", "麵線羹", "旗山區中山路76號", "週二至五 07:15–13:30，週一休", "$45–50", "11/2（一）休息"],
+  ], links: [
+    { title: "食尚玩家：旗山老街", site: "supertaste.tvbs.com.tw", href: "https://supertaste.tvbs.com.tw/pack/333093" },
+    { title: "枝仔冰城旗山總店 地圖", site: "Google 地圖", href: gm("枝仔冰城 旗山總店 高雄市旗山區中山路109號") },
+  ]},
+  { key: "f6", label: "愛河/宵夜", note: "稻芯旅店駁二愛河館附近（鹽埕區）。", rows: [
+    ["鹽埕埔夜市（駁二夜市）", "炸黑輪、QQ蛋、滷味", "建國四路兩側", "只開週六 約 17:00–23:00", "$30–100/樣", "只有 10/31 能去"],
+    ["五十年杏仁茶", "熱杏仁茶＋油條、餐包", "瀨南街223號", "18:00 起", "約 $40–80", "每晚可去"],
+    ["寶仔豆乳雞", "現炸豆乳雞", "大公路32號", "17:00 起到深夜", "約 $60–150", "每晚可去"],
+  ], links: [
+    { title: "鹽埕埔夜市", site: "tonightmarkets.com", href: "https://tonightmarkets.com/night-markets/yanchengpu-night-market" },
+    { title: "鹽埕街頭小吃地圖", site: "hello-stay.com", href: "https://www.hello-stay.com/blog/yancheng-snacks-guide" },
+  ]},
+  { key: "f7", label: "蓮池潭/果貿", note: "11/3 是週二，劉家燒雞、豫湘、美華都休。", rows: [
+    ["美紅豆漿", "燒餅夾酸菜", "左營區果峰街5號", "04:30–12:00，週三休", "$30–80", "11/3 有開（早上）"],
+    ["嚴記燒餅舖", "老麵燒餅（多為素）", "左營區果峰街12巷8號", "05:30–13:00，週一休，賣完為止", "$18–25", "11/3 有開"],
+    ["福州小館", "豬腳麵、水餃", "左營區果峰街34號", "11:00–19:00", "約 $100–150", "11/3 午餐可去"],
+    ["三牛牛肉麵", "清燉／紅燒牛肉麵", "左營區勝利路85號", "11:00–20:30（2019 資料）", "約 $150–200", "出發前再確認"],
+    ["劉家桂花燒雞", "桂花燒雞", "左營區果峰街47巷21號", "08:30–19:00，週二休", "未確認", "11/3（二）休息"],
+  ], links: [
+    { title: "食尚玩家：果貿眷村小吃", site: "supertaste.tvbs.com.tw", href: "https://supertaste.tvbs.com.tw/pack/329964" },
+    { title: "果貿美食走讀", site: "ihappyday.tw", href: "https://ihappyday.tw/blog/post/lotusponddistrict-1" },
+    { title: "蓮池潭美食懶人包", site: "inmap.tw", href: "https://inmap.tw/archives/39982" },
+  ]},
+  { key: "f8", label: "高鐵伴手禮", note: "11/3 搭車前一次買齊。", rows: [
+    ["舊振南 左營高鐵店", "鳳梨酥、綠豆椪", "高鐵路105號2樓", "官網沒寫時間，跟車站營運", "盒裝約 $300 起（未確認）", "出發前打 07-862-8661 確認"],
+  ], links: [
+    { title: "舊振南 據點", site: "jzn.com.tw", href: "https://www.jzn.com.tw/location" },
+    { title: "左營高鐵站美食與伴手禮地圖", site: "kafu.tw", href: "https://kafu.tw/zuoying-station-food/" },
+  ]},
+];
+
+
+const DAYMAP={d1:"駁二藝術特區 高雄",d2:"佛陀紀念館",d3:"野森動物學校 內門",d4:"蓮池潭 龍虎塔"};
+const DAYDATE={d1:"10/31",d2:"11/1",d3:"11/2",d4:"11/3"};
+const SPOT=[[/駁二/,"駁二藝術特區"],[/流行音樂中心/,"高雄流行音樂中心"],[/鹽埕/,"鹽埕區 高雄"],[/佛陀紀念館/,"佛陀紀念館"],[/鼓山渡輪/,"鼓山輪渡站"],[/旗後砲台/,"旗後砲台"],[/旗山轉運/,"旗山轉運站"],[/農會\(內門\)/,"內門區農會"],[/野森/,"野森動物學校"],[/龍虎塔/,"蓮池潭 龍虎塔"],[/果貿/,"果貿社區 左營"],[/愛河/,"愛河 高雄"],[/台北車站/,"台北車站"],[/左營站|左營 \d/,"高鐵左營站"],[/漢神巨蛋/,"漢神巨蛋"]];
+const gq=q=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q);
+const KEY="ks-trip-site-2026";let S;try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){}
+S=S||{checks:{},packing:defaultPacking.slice()};todos.forEach(t=>{if(!(t.id in S.checks))S.checks[t.id]=t.init});
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
+const $=id=>document.getElementById(id);const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// hero fx
+for(let i=0;i<50;i++){const e=document.createElement("i");e.style.left=Math.random()*100+"%";e.style.top=Math.random()*45+"%";e.style.animationDelay=Math.random()*3+"s";$("stars").appendChild(e)}
+["♪","♫","♬","🎤","♩"].forEach((n,i)=>{for(let k=0;k<2;k++){const e=document.createElement("span");e.textContent=n;e.style.left=(8+Math.random()*84)+"%";e.style.animationDelay=(i*1.3+k*3.5)+"s";$("notes").appendChild(e)}});
+const DEP=new Date("2026-10-31T09:31:00+08:00");
+function tick(){let d=DEP-Date.now();if(d<=0){$("cdlab").textContent="出發囉！旅途愉快 🎉";d=0}
+const p=n=>String(n).padStart(2,"0");$("cdd").textContent=Math.floor(d/864e5);$("cdh").textContent=p(Math.floor(d/36e5)%24);$("cdm").textContent=p(Math.floor(d/6e4)%60);$("cds").textContent=p(Math.floor(d/1e3)%60)}
+tick();setInterval(tick,1000);
+// days
+let cur="d1";const open={};
+function renderDay(){const d=days.find(x=>x.key===cur);
+$("tabs").innerHTML=days.map(x=>`<button class="tab ${x.key===cur?"on":""}" data-k="${x.key}"><b>${x.label.split(" ")[0]}</b><small>週${x.label.split(" ")[1]}・${x.title.split("・")[0]}</small></button>`).join("");
+const done=d.items.filter(i=>S.checks[i.id]).length;$("dtitle").textContent=d.title;$("dcount").textContent=`完成 ${done}/${d.items.length}`;$("dprog").style.width=done/d.items.length*100+"%";
+$("tl").innerHTML=d.items.map((i,n)=>{const sp=SPOT.find(s=>s[0].test(i.text));return `<div class="ev ${S.checks[i.id]?"done":""}" style="animation-delay:${n*60}ms"><span class="dot"></span><div class="box"><div class="row" data-c="${i.id}"><span class="time">${esc(i.time)}</span><span class="txt">${esc(i.text)}${sp?`<a class="maplink" target="_blank" href="${gq(sp[1])}" onclick="event.stopPropagation()">📍地圖</a>`:""}</span><span class="chk"></span></div>${i.transit?`<button class="tbtn" data-t="${i.id}">${open[i.id]?"收起交通細節 ▲":"🚇 交通細節 ▼"}</button><div class="tr ${open[i.id]?"open":""}"><div>${i.transit.map(t=>`<div class="st"><b>${esc(t.title)}</b>${esc(t.detail)}</div>`).join("")}</div></div>`:""}</div></div>`}).join("");
+$("dmap").src="https://maps.google.com/maps?q="+encodeURIComponent(DAYMAP[cur])+"&z=14&output=embed"}
+$("tabs").onclick=e=>{const b=e.target.closest(".tab");if(b){cur=b.dataset.k;renderDay()}};
+$("tl").onclick=e=>{const t=e.target.closest("[data-t]");if(t){open[t.dataset.t]=!open[t.dataset.t];t.textContent=open[t.dataset.t]?"收起交通細節 ▲":"🚇 交通細節 ▼";t.nextElementSibling.classList.toggle("open");return}
+const r=e.target.closest("[data-c]");if(r){S.checks[r.dataset.c]=!S.checks[r.dataset.c];save();renderDay()}};
+// auto select today's tab during trip
+{const t=new Date(Date.now()+8*36e5).toISOString().slice(5,10);const m={"10-31":"d1","11-01":"d2","11-02":"d3","11-03":"d4"};if(m[t])cur=m[t]}
+renderDay();
+// bus
+const BUS=[["08:00","09:23"],["08:30","09:43"],["09:00","10:13"],["09:30","10:33"],["10:00","11:03"],["10:30","11:33"],["11:00","12:03"],["11:30","12:43"],["12:00","13:13"],["13:00","13:43"],["14:00","14:43"],["15:00","16:03"],["15:30","16:33"],["16:00","17:03"],["16:50","17:43"],["17:50","18:33"]];
+const MINE=["11:00","14:43"];let bcol=0,mineOnly=false;
+function renderBus(){const now=new Date(Date.now()+8*36e5);const hm=now.toISOString().slice(11,16);$("clock").textContent="台灣時間現在 "+hm;
+const list=BUS.map(r=>r[bcol]);const nx=list.find(t=>t>hm);
+$("busg").innerHTML=list.filter(t=>!mineOnly||t===MINE[bcol]).map(t=>`<div class="box ${t===MINE[bcol]?"mine":""} ${t===nx?"next":""} ${t<=hm?"past":""}"><b>${t}</b>${t===MINE[bcol]?'<span class="tag g">我們搭</span>':t===nx?'<span class="tag">下一班</span>':""}</div>`).join("")}
+document.querySelectorAll("[data-b]").forEach(b=>b.onclick=()=>{bcol=+b.dataset.b;document.querySelectorAll("[data-b]").forEach(x=>x.classList.toggle("on",x===b));renderBus()});
+$("mineOnly").onclick=e=>{mineOnly=!mineOnly;e.target.classList.toggle("on",mineOnly);renderBus()};renderBus();setInterval(renderBus,30000);
+// todos & packing
+function renderTodo(){$("todos").innerHTML=todos.map(t=>`<div class="box item ${S.checks[t.id]?"done":""}" data-c="${t.id}"><span class="chk"></span><span class="t">${esc(t.text)}</span></div>`).join("")}
+$("todos").onclick=e=>{const r=e.target.closest("[data-c]");if(r){S.checks[r.dataset.c]=!S.checks[r.dataset.c];save();renderTodo()}};renderTodo();
+function renderPack(){const n=S.packing.filter(p=>S.checks["p:"+p]).length;$("packc").textContent=`已打包 ${n} / ${S.packing.length}`;
+$("packs").innerHTML=S.packing.map((p,i)=>`<div class="box item ${S.checks["p:"+p]?"done":""}" data-p="${esc(p)}"><span class="chk"></span><span class="t">${esc(p)}</span><button class="x" data-i="${i}" aria-label="移除">✕</button></div>`).join("")}
+$("packs").onclick=e=>{const x=e.target.closest("[data-i]");if(x){S.packing.splice(+x.dataset.i,1);save();renderPack();return}const r=e.target.closest("[data-p]");if(r){const k="p:"+r.dataset.p;S.checks[k]=!S.checks[k];save();renderPack()}};
+const addP=()=>{const v=$("newp").value.trim();if(v){S.packing.push(v);$("newp").value="";save();renderPack()}};$("addp").onclick=addP;$("newp").onkeydown=e=>{if(e.key==="Enter")addP()};
+$("resetp").onclick=()=>{if(confirm("還原預設行李清單？")){S.packing=defaultPacking.slice();save();renderPack()}};renderPack();
+// food
+let fArea="all",fDay="all";const FD=["10/31","11/1","11/2","11/3"];
+function status(s){if(/休息/.test(s))return"no";if(/確認/.test(s))return"warn";return"ok"}
+function renderFood(){$("fareas").innerHTML=`<button class="chip ${fArea==="all"?"on":""}" data-a="all">全部地區</button>`+foods.map(f=>`<button class="chip ${fArea===f.key?"on":""}" data-a="${f.key}">${f.label}</button>`).join("");
+$("fdays").innerHTML=`<button class="chip ${fDay==="all"?"on":""}" data-d="all">全部日期</button>`+FD.map(d=>`<button class="chip ${fDay===d?"on":""}" data-d="${d}">${d}</button>`).join("");
+const areas=foods.filter(f=>fArea==="all"||f.key===fArea);let cards=[];
+areas.forEach(f=>f.rows.forEach(r=>{const txt=r[5]+f.note;if(fDay==="all"||txt.includes(fDay)||(fDay==="11/3"&&f.key==="f8"))cards.push([f,r])}));
+$("fnote").style.display=fArea==="all"?"none":"";$("fnote").textContent=(foods.find(f=>f.key===fArea)||{}).note||"";
+$("foods").innerHTML=cards.map(([f,r],i)=>`<div class="box food" style="animation-delay:${i*40}ms"><span class="area">${f.label}</span><h4>${esc(r[0])}<span class="badge ${status(r[5])}">${status(r[5])==="no"?"休":status(r[5])==="warn"?"待確認":"有開"}</span></h4><div class="sig">🍜 ${esc(r[1])}</div><p>🕒 ${esc(r[3])}</p><p>💰 ${esc(r[4])}</p><p>📅 ${esc(r[5])}</p><div class="act"><a target="_blank" href="${gq(r[0]+" 高雄市"+r[2])}">📍 Google 地圖</a><span style="color:var(--mut)">${esc(r[2])}</span></div></div>`).join("")||'<p class="lead">這個條件沒有店家。</p>';
+$("flinks").innerHTML=areas.flatMap(f=>f.links).map(l=>`<a target="_blank" href="${l.href}">${esc(l.title)}<small>${esc(l.site)}</small></a>`).join("")}
+$("fareas").onclick=e=>{const b=e.target.closest("[data-a]");if(b){fArea=b.dataset.a;renderFood()}};$("fdays").onclick=e=>{const b=e.target.closest("[data-d]");if(b){fDay=b.dataset.d;renderFood()}};renderFood();
+// reveal & nav
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting)x.target.classList.add("in")}),{threshold:.08});document.querySelectorAll(".reveal").forEach(e=>io.observe(e));
+const secs=[...document.querySelectorAll("main section")];addEventListener("scroll",()=>{let c=secs[0].id;secs.forEach(s=>{if(s.getBoundingClientRect().top<120)c=s.id});document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+c))},{passive:true});
+</script></body></html>
